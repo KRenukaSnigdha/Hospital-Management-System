@@ -8,7 +8,6 @@ A web-based application built using **PHP**, **MySQL**, and **Bootstrap** that f
 ## 🎥 Demo
 
 - **Video Demo**: [Hospital Management System - YouTube](#)
-- **Live Demo**: [000webhost Demo by Kishan](#)
 
 ---
 

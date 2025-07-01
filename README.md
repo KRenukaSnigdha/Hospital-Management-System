@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # 🏥 Hospital Management System
 
 A web-based application built using **PHP**, **MySQL**, and **Bootstrap** that facilitates the management of appointments, patients, doctors, billing, and prescriptions in hospitals and clinics.

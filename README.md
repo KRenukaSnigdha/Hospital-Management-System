@@ -1,52 +1,79 @@
 <<<<<<< HEAD
-# Hospital Management System
-Hospital Management System using MySQL, Php and Bootstrap
+# 🏥 Hospital Management System
 
+A web-based application built using **PHP**, **MySQL**, and **Bootstrap** that facilitates the management of appointments, patients, doctors, billing, and prescriptions in hospitals and clinics.
 
-Video Demo : [Hospital Management System - Youtube](https://www.youtube.com/watch?v=W2XGSM5i9P8)
+---
 
-Live Demo : [Hospital Management System - 000webhost by Kishan](https://kishan0725.000webhostapp.com)
+## 🎥 Demo
 
-## Need to work on:
+- **Video Demo**: [Hospital Management System - YouTube](#)
+- **Live Demo**: [000webhost Demo by Kishan](#)
 
-1. Ability to accept the appointment by the doctor to acknowledge the patient that their appointment has been approved.
-2. User should not be allowed to register if he/she tries to provide the already registered email ID.
-3. The password should be encrypted and the password field shouldn't be displayed in the admin panel.
-4. Implementation of pagination for all the list view across the application.
-5. Bug fix - Bill payment receipt contains multiple record if the patient has associated with the same doctor multiple times.
-6. Addition of more fields in the prescription statement to make it more specific one.
-7. Addition of more details on payment - such as date of the payment made, amount paid, etc.
-8. Implementation of export button in admin module to export all details to an excel sheet.
+---
 
-## Prerequisites
-1. Install XAMPP web server
-2. Any Editor (Preferably VS Code or Sublime Text)
-3. Any web browser with latest version
+## 📝 Features To Be Improved
 
-## Languages and Technologies used
-1. HTML5/CSS3
-2. JavaScript (to create dynamically updating content)
-3. Bootstrap (An HTML, CSS, and JS library)
-4. XAMPP (A web server by Apache Friends)
-5. Php
-6. MySQL (An RDBMS that uses SQL)
-7. TCPDF (to generate PDFs)
+- Enable doctors to accept appointments and notify patients upon approval.
+- Prevent duplicate registration using the same email ID.
+- Encrypt user passwords and ensure passwords are not visible in admin panel.
+- Implement pagination in all list views for better usability.
+- Fix bill receipt bug where multiple records appear if the same doctor treats a patient multiple times.
+- Add more detailed fields in the prescription for clarity.
+- Display payment details (date, amount paid, etc.) in billing.
+- Provide export-to-Excel feature in the admin module.
 
-## Steps to run the project in your machine
-1. Download and install XAMPP in your machine
-2. Clone or download the repository
-3. Extract all the files and move it to the 'htdocs' folder of your XAMPP directory.
-4. Start the Apache and Mysql in your XAMPP control panel.
-5. Open your web browser and type 'localhost/phpmyadmin'
-6. In phpmyadmin page, create a new database from the left panel and name it as 'myhmsdb'
-7. Import the file 'myhmsdb.sql' inside your newly created database and click ok.
-8. Open a new tab and type 'localhost/foldername' in the url of your browser
-9. Hurray! That's it!
-    
-### SOFTWARES USED
-  - XAMPP was installed on the Ubuntu 19.04 machine and APACHE2 Server and MySQL were initialized. And, files were built inside opt/lampp/htdocs/myhmsp
-  - Sublime Text 3.2 was used as a text editor.
-  - Google Chrome Version 77.0.3865.90 was used to run the project (localhost/myhmsp was used as the url).
+---
+
+## 🧰 Prerequisites
+
+- [XAMPP](https://www.apachefriends.org/index.html) (Apache, MySQL, PHP)
+- Code editor (e.g., Visual Studio Code or Sublime Text)
+- Latest version of any modern web browser
+
+---
+
+## 💻 Technologies Used
+
+- **Frontend**: HTML5, CSS3, JavaScript, Bootstrap
+- **Backend**: PHP 7+
+- **Database**: MySQL
+- **Server**: Apache via XAMPP
+- **PDF Generation**: TCPDF
+
+---
+
+## 🚀 Getting Started
+
+### 🔧 Setup Instructions
+
+1. **Install XAMPP** on your machine.
+2. **Clone or download** this repository.
+3. **Extract all files** and move the folder to: C:\xampp\htdocs\
+4. 4. **Start Apache and MySQL** in the XAMPP Control Panel.
+5. In your browser, go to: http://localhost/phpmyadmin
+6. 6. **Create a new database** named `myhmsdb`.
+7. **Import** the `myhmsdb.sql` file provided in the project into your database.
+8. Visit the app: http://localhost/Hospital-Management-System
+9. ✅ Done! The project should now be live on your localhost.
+
+---
+
+## 🛠️ Software Used During Development
+
+- XAMPP (Apache2 + MySQL on Windows)
+- Visual Studio Code / Sublime Text
+- Google Chrome (for running the application)
+
+---
+
+## 🧭 Project Navigation
+
+The homepage offers tabs for **Patient**, **Doctor**, and **Admin** login. The interface is clean, intuitive, and allows each role to access role-specific functionality like booking appointments, managing prescriptions, and processing billing.
+
+---
+
+> Built for educational and demonstration purposes. Contributions and improvements are welcome
   
 
 ### Starting Apache And MySQL in XAMPP:
